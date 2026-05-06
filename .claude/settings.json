@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Write(e:/Claud Experiment/**)",
+      "Edit(e:/Claud Experiment/**)",
+      "Bash(node server.js)",
+      "Bash(node *)",
+      "Bash(curl http://localhost:*)",
+      "Bash(ls *)",
+      "Bash(dir *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force *)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[IR-FZE] File saved: check http://localhost:3000 to preview\""
+          }
+        ]
+      }
+    ]
+  }
+}

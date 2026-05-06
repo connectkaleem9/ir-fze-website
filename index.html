@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IR-FZE | Technical Consultancy & AI Integration — Sharjah, UAE</title>
+  <meta name="description" content="IR-FZE is a premier technical consultancy in Sharjah UAE offering Feasibility Studies, Project Management Systems, Document Control and AI Automation. Registered in Sharjah Publishing City Freezone." />
+  <meta name="keywords" content="consultancy in Sharjah, UAE engineering advisory, technical feasibility UAE, AI automation UAE, project management Sharjah, document control UAE, IR-FZE" />
+  <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="AE-SH" />
+  <meta name="geo.placename" content="Sharjah, United Arab Emirates" />
+  <link rel="canonical" href="https://www.ir-fze.com/" />
+  <link rel="alternate" hreflang="en" href="https://www.ir-fze.com/" />
+  <link rel="alternate" hreflang="ar" href="https://www.ir-fze.com/ar/" />
+  <!-- OG -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="IR-FZE | Technical Consultancy & AI Integration — UAE" />
+  <meta property="og:description" content="Expert Feasibility Studies, PMO Setup, Document Control & AI Automation for UAE businesses. Based in Sharjah Publishing City Freezone." />
+  <meta property="og:url" content="https://www.ir-fze.com/" />
+  <meta property="og:image" content="https://www.ir-fze.com/og-image.jpg" />
+  <meta property="og:locale" content="en_AE" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23114691'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Montserrat,sans-serif' font-weight='800' font-size='13' fill='white'%3EIR%3C/text%3E%3C/svg%3E" />
+  <meta name="theme-color" content="#114691" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/global.css" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":["ProfessionalService","LocalBusiness"],
+        "@id":"https://www.ir-fze.com/#business",
+        "name":"IR-FZE",
+        "description":"Technical Feasibility Studies, Project Management Systems, Document Control, Design Review and AI Integration consultancy in the UAE.",
+        "url":"https://www.ir-fze.com/",
+        "telephone":"+971543368088",
+        "email":"info@ir-fze.com",
+        "address":{
+          "@type":"PostalAddress",
+          "streetAddress":"Sharjah Publishing City Freezone",
+          "addressLocality":"Sharjah",
+          "addressCountry":"AE"
+        },
+        "geo":{"@type":"GeoCoordinates","latitude":"25.3463","longitude":"55.4209"},
+        "areaServed":{"@type":"Country","name":"United Arab Emirates"},
+        "contactPoint":{"@type":"ContactPoint","telephone":"+971543368088","contactType":"sales","availableLanguage":["English","Arabic"]}
+      },
+      {
+        "@type":"WebSite",
+        "@id":"https://www.ir-fze.com/#website",
+        "url":"https://www.ir-fze.com/",
+        "name":"IR-FZE",
+        "publisher":{"@id":"https://www.ir-fze.com/#business"}
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ── HOME-SPECIFIC STYLES ── */
+    /* Hero */
+    #hero {
+      min-height: 100svh;
+      background: linear-gradient(145deg, #0C3060 0%, #114691 55%, #1A5BAF 100%);
+      display: flex; align-items: center;
+      padding-top: var(--nav-h);
+      position: relative; overflow: hidden;
+    }
+    .hero-grid-overlay {
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+    .hero-glow {
+      position: absolute; right: -10%; top: 10%;
+      width: 700px; height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(160,166,173,.07) 0%, transparent 65%);
+    }
+    .hero-arc {
+      position: absolute; right: -80px; bottom: -80px;
+      width: 520px; height: 520px;
+      border-radius: 50%;
+      border: 50px solid rgba(160,166,173,.06);
+    }
+    .hero-arc-2 {
+      position: absolute; right: 120px; bottom: 80px;
+      width: 260px; height: 260px;
+      border-radius: 50%;
+      border: 25px solid rgba(160,166,173,.04);
+    }
+    .hero-content-wrap {
+      position: relative; z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 4rem;
+      align-items: center;
+      padding-block: clamp(3rem, 8vh, 5rem);
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 100px;
+      padding: .4rem 1rem .4rem .6rem;
+      font-family: var(--font-head);
+      font-size: .7rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: rgba(255,255,255,.75);
+      margin-bottom: 1.5rem;
+    }
+    .hero-badge-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: #4ADE80; flex-shrink: 0;
+      box-shadow: 0 0 8px rgba(74,222,128,.6);
+    }
+    .hero-title {
+      font-family: var(--font-head);
+      font-size: clamp(2.25rem, 5vw, 4rem);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.08;
+      letter-spacing: -.03em;
+      margin-bottom: 1.25rem;
+    }
+    .hero-title em { font-style: normal; color: #A0A6AD; }
+    .hero-sub {
+      font-size: clamp(.9rem, 1.4vw, 1.05rem);
+      color: rgba(255,255,255,.7);
+      line-height: 1.82;
+      max-width: 540px;
+      margin-bottom: 2.5rem;
+    }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .hero-trust {
+      display: flex; align-items: center; gap: 1rem;
+      margin-top: 2.5rem;
+    }
+    .hero-trust-avatars {
+      display: flex;
+    }
+    .hero-trust-avatars span {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: var(--blue-light);
+      border: 2px solid rgba(255,255,255,.2);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-head); font-size: .68rem; font-weight: 700;
+      color: var(--white);
+      margin-left: -10px;
+    }
+    .hero-trust-avatars span:first-child { margin-left: 0; }
+    .hero-trust-text { font-size: .78rem; color: rgba(255,255,255,.55); line-height: 1.4; }
+    .hero-trust-text strong { color: rgba(255,255,255,.85); display: block; }
+
+    /* Hero visual card */
+    .hero-visual { position: relative; }
+    .hero-glass-card {
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius-xl);
+      padding: 2rem;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .hgc-header {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 1.5rem;
+    }
+    .hgc-title {
+      font-family: var(--font-head); font-size: .82rem; font-weight: 700;
+      color: rgba(255,255,255,.9);
+    }
+    .hgc-badge {
+      background: rgba(74,222,128,.15); border: 1px solid rgba(74,222,128,.25);
+      border-radius: 100px; padding: .2rem .65rem;
+      font-size: .65rem; font-family: var(--font-head); font-weight: 700;
+      color: #4ADE80;
+    }
+    .hgc-stat-row {
+      display: flex; gap: 1rem; margin-bottom: 1.5rem;
+    }
+    .hgc-stat {
+      flex: 1;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      padding: 1rem;
+      text-align: center;
+    }
+    .hgc-stat-num {
+      font-family: var(--font-head); font-size: 1.4rem; font-weight: 800;
+      color: var(--white); display: block; margin-bottom: .15rem;
+    }
+    .hgc-stat-lbl { font-size: .68rem; color: rgba(255,255,255,.45); font-family: var(--font-head); }
+    .hgc-service-list { display: flex; flex-direction: column; gap: .5rem; }
+    .hgc-service-item {
+      display: flex; align-items: center; gap: .65rem;
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: var(--radius);
+      padding: .65rem .9rem;
+    }
+    .hgc-service-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--silver-light); flex-shrink: 0;
+    }
+    .hgc-service-name {
+      font-size: .78rem; color: rgba(255,255,255,.7);
+      font-family: var(--font-head); font-weight: 500; flex: 1;
+    }
+    .hgc-service-arrow { opacity: .4; }
+    .hgc-service-arrow svg { width: 14px; height: 14px; stroke: rgba(255,255,255,.6); }
+    /* floating cards */
+    .hero-float-card {
+      position: absolute;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      padding: .85rem 1.1rem;
+      display: flex; align-items: center; gap: .65rem;
+    }
+    .hero-float-card-1 { bottom: -20px; left: -30px; }
+    .hero-float-card-2 { top: -20px;    right: -20px; }
+    .hfc-icon {
+      width: 36px; height: 36px;
+      border-radius: 9px; background: var(--blue-xlt);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .hfc-icon svg { width: 18px; height: 18px; stroke: var(--blue); }
+    .hfc-title { font-family: var(--font-head); font-size: .78rem; font-weight: 700; color: var(--text-dark); }
+    .hfc-sub { font-size: .68rem; color: var(--silver); }
+
+    /* Achievement counters */
+    #achievements {
+      background: var(--blue);
+      padding-block: 4.5rem;
+    }
+    .achievements-row {
+      display: grid; grid-template-columns: repeat(4,1fr); gap: 0;
+    }
+    .ach-item {
+      text-align: center; padding: 1.5rem 1rem;
+      border-right: 1px solid rgba(255,255,255,.1);
+    }
+    .ach-item:last-child { border-right: none; }
+    .ach-num {
+      font-family: var(--font-head); font-size: clamp(2rem,4vw,3rem);
+      font-weight: 800; color: var(--white); display: block; margin-bottom: .35rem;
+    }
+    .ach-label {
+      font-size: .78rem; color: rgba(255,255,255,.55);
+      font-family: var(--font-head); font-weight: 500; letter-spacing: .04em;
+    }
+
+    /* Why section */
+    #why { background: var(--off-white); }
+    .why-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center;
+    }
+    .why-card-stack { position: relative; }
+    .why-main-card {
+      background: var(--white); border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-lg); padding: 2.5rem;
+      border: 1px solid var(--border);
+    }
+    .why-card-back {
+      position: absolute; inset: 0;
+      transform: rotate(-3deg) translateY(12px);
+      background: var(--blue-xlt);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border);
+      z-index: -1;
+    }
+    .why-icon-row {
+      display: flex; gap: .75rem; margin-bottom: 1.5rem;
+    }
+    .why-feature-title {
+      font-family: var(--font-head); font-size: 1.15rem; font-weight: 800;
+      color: var(--blue); margin-bottom: .5rem;
+    }
+    .why-feature-sub { font-size: .85rem; color: var(--text-mid); line-height: 1.7; margin-bottom: 1.5rem; }
+    .why-divider { height: 1px; background: var(--border); margin-block: 1.5rem; }
+    .why-proof-row { display: flex; gap: 1.5rem; }
+    .why-proof-stat span {
+      font-family: var(--font-head); font-size: 1.5rem; font-weight: 800;
+      color: var(--blue); display: block;
+    }
+    .why-proof-stat p { font-size: .75rem; color: var(--silver); }
+    .why-features { display: flex; flex-direction: column; gap: 1.25rem; }
+    .why-feat-item {
+      display: flex; gap: 1rem; align-items: flex-start;
+      padding: 1.25rem; background: var(--white);
+      border-radius: var(--radius-lg); border: 1px solid var(--border);
+      box-shadow: var(--shadow-xs);
+      transition: box-shadow var(--t-base), transform var(--t-base);
+    }
+    .why-feat-item:hover { box-shadow: var(--shadow-md); transform: translateX(4px); }
+    .why-feat-body h4 { font-family: var(--font-head); font-size: .92rem; font-weight: 700; color: var(--text-dark); margin-bottom: .25rem; }
+    .why-feat-body p  { font-size: .82rem; color: var(--text-mid); line-height: 1.6; }
+
+    /* Services teaser */
+    #services-teaser { background: var(--white); }
+    .service-teaser-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--silver);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-xs);
+      display: flex; flex-direction: column;
+      transition: all var(--t-base) var(--ease);
+    }
+    .service-teaser-card:hover {
+      border-top-color: var(--blue);
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+    .stc-num {
+      font-family: var(--font-head); font-size: .65rem; font-weight: 700;
+      letter-spacing: .15em; text-transform: uppercase; color: var(--silver);
+      margin-bottom: .5rem;
+    }
+    .stc-title { font-family: var(--font-head); font-size: 1rem; font-weight: 700; color: var(--blue); margin-bottom: .6rem; }
+    .stc-desc { font-size: .84rem; color: var(--text-mid); line-height: 1.7; flex: 1; margin-bottom: 1.25rem; }
+    .stc-link {
+      display: inline-flex; align-items: center; gap: .4rem;
+      font-family: var(--font-head); font-size: .78rem; font-weight: 700;
+      color: var(--blue); transition: gap var(--t-fast);
+    }
+    .stc-link:hover { gap: .7rem; }
+    .stc-link svg { width: 14px; height: 14px; stroke: var(--blue); }
+
+    @media (max-width: 1000px) {
+      .hero-content-wrap { grid-template-columns: 1fr; }
+      .hero-visual { display: none; }
+      .why-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 900px) {
+      .achievements-row { grid-template-columns: repeat(2,1fr); }
+      .ach-item:nth-child(2) { border-right: none; }
+      .ach-item:nth-child(3),
+      .ach-item:nth-child(4) { border-top: 1px solid rgba(255,255,255,.1); }
+      .ach-item:nth-child(4) { border-right: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ════════════════════ NAVIGATION ════════════════════ -->
+<nav id="navbar" class="nav-dark" aria-label="Main navigation">
+  <div class="nav-wrap">
+    <a href="index.html" class="nav-logo" aria-label="IR-FZE Home">
+      <div class="logo-box"><span>IR</span></div>
+      <div class="logo-meta"><strong>IR-FZE</strong><small>Technical Consultancy</small></div>
+    </a>
+
+    <ul class="nav-links" role="menubar">
+      <li class="nav-item"><a href="index.html"  class="nav-link" role="menuitem">Home</a></li>
+      <li class="nav-item"><a href="about.html"  class="nav-link" role="menuitem">About</a></li>
+      <li class="nav-item has-mega">
+        <a href="services.html" class="nav-link" role="menuitem" aria-haspopup="true">
+          Services
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
+        <div class="mega-menu" role="menu">
+          <div class="mega-services">
+            <a href="service-feasibility.html" class="mega-service-link" role="menuitem">
+              <div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+              <div><div class="mega-service-title">Technical Feasibility Studies</div><div class="mega-service-desc">Risk assessments & advisory reports</div></div>
+            </a>
+            <a href="service-design-review.html" class="mega-service-link" role="menuitem">
+              <div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+              <div><div class="mega-service-title">Design Review & Constructability</div><div class="mega-service-desc">Document review & gap analysis</div></div>
+            </a>
+            <a href="service-pms.html" class="mega-service-link" role="menuitem">
+              <div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+              <div><div class="mega-service-title">Project Management Systems</div><div class="mega-service-desc">PMO setup & workflow alignment</div></div>
+            </a>
+            <a href="service-document-control.html" class="mega-service-link" role="menuitem">
+              <div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/></svg></div>
+              <div><div class="mega-service-title">Document Control System</div><div class="mega-service-desc">Setup, procedures & training</div></div>
+            </a>
+            <a href="service-ai.html" class="mega-service-link" role="menuitem">
+              <div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
+              <div><div class="mega-service-title">AI Integration & Automation</div><div class="mega-service-desc">Dashboards, chatbots & task automation</div></div>
+            </a>
+          </div>
+          <div class="mega-promo">
+            <div>
+              <div class="mega-promo-label">Featured Service</div>
+              <div class="mega-promo-title">AI Automation for UAE Enterprises</div>
+              <div class="mega-promo-body">Reduce operational manpower by up to 60% with intelligent dashboards, automated workflows and custom AI chatbots.</div>
+            </div>
+            <a href="service-ai.html" class="mega-view-all">
+              Explore AI Services
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="tel:+971543368088" class="btn btn-outline-white btn-sm" aria-label="Call IR-FZE">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 012 1.18 2 2 0 014 0h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 14.92z"/></svg>
+        Call Now
+      </a>
+      <a href="contact.html" class="btn btn-white btn-sm">Get Consultation</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="index.html">Home</a>
+    <span class="drawer-section-label">Services</span>
+    <a href="service-feasibility.html">— Technical Feasibility Studies</a>
+    <a href="service-design-review.html">— Design Review & Constructability</a>
+    <a href="service-pms.html">— Project Management Systems</a>
+    <a href="service-document-control.html">— Document Control System</a>
+    <a href="service-ai.html">— AI Integration & Automation</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary drawer-cta">Get a Consultation</a>
+  </div>
+</nav>
+
+<!-- ════════════════════ HERO ════════════════════ -->
+<section id="hero" aria-label="Hero">
+  <div class="hero-grid-overlay" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-arc" aria-hidden="true"></div>
+  <div class="hero-arc-2" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-content-wrap">
+
+      <!-- Left: Copy -->
+      <div class="hero-copy">
+        <div class="hero-badge">
+          <span class="hero-badge-dot" aria-hidden="true"></span>
+          Sharjah Publishing City Freezone · UAE Registered
+        </div>
+        <h1 class="hero-title">
+          Precision Systems.<br>
+          <em>Intelligent Growth.</em>
+        </h1>
+        <p class="hero-sub">
+          IR-FZE delivers expert Technical Feasibility, Project Management Systems, and AI-powered Automation to help UAE businesses operate with engineering precision and scale with confidence.
+        </p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-white btn-lg">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 012 1.18 2 2 0 014 0h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 14.92z"/></svg>
+            Start a Project
+          </a>
+          <a href="services.html" class="btn btn-outline-white btn-lg">Explore Services</a>
+        </div>
+        <div class="hero-trust">
+          <div class="hero-trust-avatars" aria-hidden="true">
+            <span>AM</span><span>KR</span><span>SH</span><span>+</span>
+          </div>
+          <div class="hero-trust-text">
+            <strong>120+ Projects Delivered</strong>
+            Trusted by UAE developers, contractors & government entities
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Glass card -->
+      <div class="hero-visual" aria-hidden="true">
+        <div style="position:relative; padding: 24px 24px 24px 0;">
+          <div class="hero-glass-card">
+            <div class="hgc-header">
+              <div class="hgc-title">Project Intelligence Dashboard</div>
+              <div class="hgc-badge">Live</div>
+            </div>
+            <div class="hgc-stat-row">
+              <div class="hgc-stat">
+                <span class="hgc-stat-num">94%</span>
+                <div class="hgc-stat-lbl">Delivery Rate</div>
+              </div>
+              <div class="hgc-stat">
+                <span class="hgc-stat-num">60%</span>
+                <div class="hgc-stat-lbl">Cost Reduction</div>
+              </div>
+              <div class="hgc-stat">
+                <span class="hgc-stat-num">48h</span>
+                <div class="hgc-stat-lbl">Avg. Response</div>
+              </div>
+            </div>
+            <div class="hgc-service-list">
+              <div class="hgc-service-item">
+                <div class="hgc-service-dot" style="background:#4ADE80;"></div>
+                <div class="hgc-service-name">Feasibility Studies</div>
+                <div class="hgc-service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+              </div>
+              <div class="hgc-service-item">
+                <div class="hgc-service-dot" style="background:#60A5FA;"></div>
+                <div class="hgc-service-name">PMO Setup & Systems</div>
+                <div class="hgc-service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+              </div>
+              <div class="hgc-service-item">
+                <div class="hgc-service-dot" style="background:#F59E0B;"></div>
+                <div class="hgc-service-name">AI Integration & Automation</div>
+                <div class="hgc-service-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-float-card hero-float-card-1">
+            <div class="hfc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><div class="hfc-title">FZE Registered</div><div class="hfc-sub">Sharjah, UAE</div></div>
+          </div>
+          <div class="hero-float-card hero-float-card-2">
+            <div class="hfc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <div><div class="hfc-title">ISO-Aligned</div><div class="hfc-sub">Processes</div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ ACHIEVEMENT COUNTERS ════════════════════ -->
+<section id="achievements" aria-label="Key statistics">
+  <div class="container">
+    <div class="achievements-row">
+      <div class="ach-item reveal">
+        <span class="ach-num" data-target="120" data-suffix="+" aria-label="120 plus projects delivered">0</span>
+        <p class="ach-label">Projects Delivered</p>
+      </div>
+      <div class="ach-item reveal delay-1">
+        <span class="ach-num" data-target="15" data-suffix="+" aria-label="15 plus years experience">0</span>
+        <p class="ach-label">Years Combined Experience</p>
+      </div>
+      <div class="ach-item reveal delay-2">
+        <span class="ach-num" data-target="60" data-suffix="%" aria-label="60 percent average overhead reduction">0</span>
+        <p class="ach-label">Avg. Overhead Reduction via AI</p>
+      </div>
+      <div class="ach-item reveal delay-3">
+        <span class="ach-num" data-target="5" data-suffix=" Sectors" aria-label="5 sectors">0</span>
+        <p class="ach-label">Industries Served Across UAE</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ WHY UAE BUSINESSES TRUST US ════════════════════ -->
+<section id="why" class="section-py" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="why-grid">
+
+      <!-- Visual card -->
+      <div class="why-card-stack reveal-left">
+        <div class="why-card-back" aria-hidden="true"></div>
+        <div class="why-main-card">
+          <div class="why-icon-row">
+            <div class="icon-box icon-box-dark"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div>
+              <div class="why-feature-title">IR-FZE</div>
+              <p class="why-feature-sub" style="margin-bottom:0;">Sharjah Publishing City Freezone — UAE's most innovation-forward jurisdiction</p>
+            </div>
+          </div>
+          <div class="why-divider"></div>
+          <div class="stat-bar-wrap">
+            <div class="stat-bar">
+              <div class="stat-bar-header"><span class="stat-bar-label">Technical Feasibility Accuracy</span><span class="stat-bar-value">97%</span></div>
+              <div class="stat-bar-track"><div class="stat-bar-fill" data-width="97"></div></div>
+            </div>
+            <div class="stat-bar">
+              <div class="stat-bar-header"><span class="stat-bar-label">On-Time Project Delivery</span><span class="stat-bar-value">94%</span></div>
+              <div class="stat-bar-track"><div class="stat-bar-fill" data-width="94"></div></div>
+            </div>
+            <div class="stat-bar">
+              <div class="stat-bar-header"><span class="stat-bar-label">AI Automation Adoption</span><span class="stat-bar-value">88%</span></div>
+              <div class="stat-bar-track"><div class="stat-bar-fill" data-width="88"></div></div>
+            </div>
+            <div class="stat-bar">
+              <div class="stat-bar-header"><span class="stat-bar-label">Client Retention Rate</span><span class="stat-bar-value">91%</span></div>
+              <div class="stat-bar-track"><div class="stat-bar-fill" data-width="91"></div></div>
+            </div>
+          </div>
+          <div class="why-divider"></div>
+          <div class="why-proof-row">
+            <div class="why-proof-stat"><span>AED 2B+</span><p>Project Value Managed</p></div>
+            <div class="why-proof-stat"><span>7 UAE</span><p>Emirates Covered</p></div>
+            <div class="why-proof-stat"><span>24/7</span><p>Support Coverage</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features list -->
+      <div class="reveal-right">
+        <span class="eyebrow">Why UAE Businesses Trust Us</span>
+        <div class="rule"></div>
+        <h2 class="h2 text-blue" id="why-heading" style="margin-bottom:1rem;">
+          Engineering Precision. Business Results.
+        </h2>
+        <p class="lead" style="margin-bottom:2rem;">
+          From Sharjah to Dubai, IR-FZE serves developers, contractors, and government bodies seeking a single trusted partner across the full project lifecycle — from feasibility to full AI-powered operations.
+        </p>
+        <div class="why-features">
+          <div class="why-feat-item">
+            <div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <div class="why-feat-body"><h4>UAE Market Specialists</h4><p>Deep knowledge of Freezone regulations, UAE construction standards, and local procurement frameworks.</p></div>
+          </div>
+          <div class="why-feat-item">
+            <div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
+            <div class="why-feat-body"><h4>Rapid Onboarding — Week 1</h4><p>No lengthy discovery phases. We embed our processes into your workflow from the very first week.</p></div>
+          </div>
+          <div class="why-feat-item">
+            <div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <div class="why-feat-body"><h4>Technology-Agnostic Delivery</h4><p>We integrate with your existing tools — Procore, Aconex, Primavera P6, Power BI, and custom platforms.</p></div>
+          </div>
+          <div class="why-feat-item">
+            <div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+            <div class="why-feat-body"><h4>AI-First Approach</h4><p>Every engagement is assessed for automation potential. We reduce overhead, not just advise on it.</p></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ SERVICES TEASER ════════════════════ -->
+<section id="services-teaser" class="section-py" aria-labelledby="svc-heading">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <span class="eyebrow">Core Service Pillars</span>
+      <div class="rule centered"></div>
+      <h2 class="h2 text-blue" id="svc-heading">End-to-End Technical Consultancy</h2>
+      <p class="lead">Five specialist practice areas covering every phase of your project — from concept assessment to full digital operations.</p>
+    </div>
+    <div class="grid-3" style="grid-template-columns:repeat(3,1fr);">
+      <div class="service-teaser-card reveal delay-1">
+        <div class="icon-box icon-box-blue" style="margin-bottom:1rem;"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+        <div class="stc-num">01</div>
+        <div class="stc-title">Technical Feasibility Studies</div>
+        <div class="stc-desc">Site and project assessments, risk identification, and clear advisory reports for confident decision-making.</div>
+        <a href="service-feasibility.html" class="stc-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="service-teaser-card reveal delay-2">
+        <div class="icon-box icon-box-blue" style="margin-bottom:1rem;"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+        <div class="stc-num">02</div>
+        <div class="stc-title">Design Review & Constructability</div>
+        <div class="stc-desc">Systematic document review, technical observations, and coordination gap analysis before ground breaks.</div>
+        <a href="service-design-review.html" class="stc-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="service-teaser-card reveal delay-3">
+        <div class="icon-box icon-box-blue" style="margin-bottom:1rem;"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <div class="stc-num">03</div>
+        <div class="stc-title">Project Management Systems</div>
+        <div class="stc-desc">PMO setup, tool configuration, and workflow alignment built for scale from day one.</div>
+        <a href="service-pms.html" class="stc-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="service-teaser-card reveal delay-1" style="margin-top:0;">
+        <div class="icon-box icon-box-blue" style="margin-bottom:1rem;"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/></svg></div>
+        <div class="stc-num">04</div>
+        <div class="stc-title">Document Control System</div>
+        <div class="stc-desc">End-to-end setup, SOPs, and personnel training for audit-ready document compliance.</div>
+        <a href="service-document-control.html" class="stc-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="service-teaser-card reveal delay-2" style="grid-column:span 2;">
+        <div style="display:flex;gap:2rem;align-items:center;flex-wrap:wrap;">
+          <div style="flex:1;min-width:200px;">
+            <div class="icon-box icon-box-blue" style="margin-bottom:1rem;"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
+            <div class="stc-num">05</div>
+            <div class="stc-title">AI Integration & Automation</div>
+            <div class="stc-desc">Automated dashboards, business chatbots, and end-to-end task automation for UAE enterprises. Reduce manpower overhead by up to 60%.</div>
+            <a href="service-ai.html" class="stc-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+          <div style="flex:1;min-width:200px;display:flex;flex-direction:column;gap:.6rem;">
+            <div style="background:var(--off-white);border-radius:var(--radius);padding:.85rem 1rem;border:1px solid var(--border);">
+              <div style="font-family:var(--font-head);font-size:.7rem;font-weight:700;color:var(--silver);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem;">Automated Dashboards</div>
+              <div style="height:5px;background:linear-gradient(90deg,var(--blue),var(--silver-light));border-radius:3px;width:85%;"></div>
+            </div>
+            <div style="background:var(--off-white);border-radius:var(--radius);padding:.85rem 1rem;border:1px solid var(--border);">
+              <div style="font-family:var(--font-head);font-size:.7rem;font-weight:700;color:var(--silver);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem;">AI Chatbots</div>
+              <div style="height:5px;background:linear-gradient(90deg,var(--blue),var(--silver-light));border-radius:3px;width:70%;"></div>
+            </div>
+            <div style="background:var(--off-white);border-radius:var(--radius);padding:.85rem 1rem;border:1px solid var(--border);">
+              <div style="font-family:var(--font-head);font-size:.7rem;font-weight:700;color:var(--silver);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem;">Task Automation</div>
+              <div style="height:5px;background:linear-gradient(90deg,var(--blue),var(--silver-light));border-radius:3px;width:92%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;" class="reveal">
+      <a href="services.html" class="btn btn-primary btn-lg">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ TESTIMONIAL ════════════════════ -->
+<section class="section-py" style="background:var(--off-white);" aria-label="Client testimonial">
+  <div class="container">
+    <div style="max-width:760px;margin-inline:auto;" class="reveal">
+      <div class="quote-card">
+        <div class="quote-mark" aria-hidden="true">"</div>
+        <p class="quote-text">IR-FZE transformed our document control process in under three months. What used to take our team two days of manual compilation now runs automatically. The AI dashboard alone justified the entire engagement. Their understanding of UAE construction workflows is unmatched.</p>
+        <div class="quote-author">
+          <div class="quote-avatar" aria-label="Ahmad M.">AM</div>
+          <div>
+            <div class="quote-name">Ahmad M.</div>
+            <div class="quote-role">Project Director, Infrastructure — Dubai, UAE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ CTA BAND ════════════════════ -->
+<section class="cta-band" aria-label="Call to action">
+  <div class="container">
+    <div class="cta-band-inner">
+      <div class="reveal-left">
+        <div class="cta-band-title">Ready to Transform Your Project Operations?</div>
+        <div class="cta-band-sub">Contact IR-FZE today — UAE's specialist in feasibility, systems, and AI automation.</div>
+      </div>
+      <div class="cta-band-actions reveal-right">
+        <a href="contact.html" class="btn btn-white btn-lg">Get a Consultation</a>
+        <a href="tel:+971543368088" class="btn btn-outline-white btn-lg">+971 54 336 8088</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ FOOTER ════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-upper">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:.75rem;" aria-label="IR-FZE Home">
+            <div class="logo-box"><span>IR</span></div>
+            <div class="logo-meta"><strong>IR-FZE</strong><small>Technical Consultancy</small></div>
+          </a>
+          <p class="footer-tagline">Premier technical consultancy in Sharjah, UAE. Delivering precision feasibility, project systems, and AI automation for enterprise clients across the Emirates.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="service-feasibility.html">Technical Feasibility Studies</a></li>
+            <li><a href="service-design-review.html">Design Review & Constructability</a></li>
+            <li><a href="service-pms.html">Project Management Systems</a></li>
+            <li><a href="service-document-control.html">Document Control System</a></li>
+            <li><a href="service-ai.html">AI Integration & Automation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About IR-FZE</a></li>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">UAE Data Compliance</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <address>
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 012 1.18 2 2 0 014 0h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 14.92z"/></svg></div>
+              <a href="tel:+971543368088">+971 543368088</a>
+            </div>
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <a href="mailto:info@ir-fze.com">info@ir-fze.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <span>Sharjah Publishing City Freezone, Sharjah, UAE</span>
+            </div>
+          </address>
+          <div class="footer-fze" style="margin-top:.75rem;">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Freezone Registered · UAE
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-lower">
+      <p>&copy; <span class="js-year"></span> IR-FZE. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">UAE Data Compliance</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/971543368088?text=Hello%20IR-FZE%2C%20I%20am%20interested%20in%20your%20consultancy%20services."
+   class="wa-fab" target="_blank" rel="noopener noreferrer"
+   aria-label="Chat with IR-FZE on WhatsApp">
+  <span class="wa-fab-icon">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </span>
+  <span class="wa-fab-label">Chat on WhatsApp</span>
+</a>
+
+<script src="js/global.js"></script>
+</body>
+</html>

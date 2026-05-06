@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About IR-FZE | Technical Consultancy in Sharjah, UAE</title>
+  <meta name="description" content="Learn about IR-FZE — a UAE engineering advisory firm registered in Sharjah Publishing City Freezone, driving digital transformation through technical feasibility, project systems and AI automation." />
+  <meta name="keywords" content="about IR-FZE, consultancy Sharjah UAE, engineering advisory UAE, Sharjah Publishing City Freezone consultancy, UAE digital transformation" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.ir-fze.com/about.html" />
+  <meta property="og:title" content="About IR-FZE | Technical Consultancy — Sharjah, UAE" />
+  <meta property="og:description" content="IR-FZE is a premier UAE engineering consultancy registered in Sharjah Publishing City Freezone, specialising in digital transformation and project intelligence." />
+  <meta property="og:url" content="https://www.ir-fze.com/about.html" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23114691'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Montserrat,sans-serif' font-weight='800' font-size='13' fill='white'%3EIR%3C/text%3E%3C/svg%3E" />
+  <meta name="theme-color" content="#114691" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/global.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"AboutPage","name":"About IR-FZE","url":"https://www.ir-fze.com/about.html","description":"IR-FZE is a UAE technical consultancy registered in Sharjah Publishing City Freezone, specialising in engineering advisory and digital transformation.","mainEntity":{"@id":"https://www.ir-fze.com/#business"}}
+  </script>
+  <style>
+    .about-mission { background: var(--off-white); }
+    .mission-grid { display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:center; }
+    .mission-identity {
+      background: var(--blue);
+      border-radius: var(--radius-xl); padding: 3rem;
+      position: relative; overflow: hidden;
+    }
+    .mission-identity::before {
+      content:''; position:absolute; right:-60px; top:-60px;
+      width:260px; height:260px; border-radius:50%;
+      border:40px solid rgba(255,255,255,.05);
+    }
+    .mission-identity::after {
+      content:''; position:absolute; right:40px; bottom:-40px;
+      width:140px; height:140px; border-radius:50%;
+      border:20px solid rgba(160,166,173,.08);
+    }
+    .mi-logo {
+      width:72px; height:72px; border-radius:18px;
+      background: rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.15);
+      display:flex; align-items:center; justify-content:center;
+      position:relative; z-index:1; margin-bottom:1.5rem;
+    }
+    .mi-logo span {
+      font-family:var(--font-head); font-weight:800; font-size:1.6rem;
+      color:var(--white); letter-spacing:-.03em;
+    }
+    .mi-name {
+      font-family:var(--font-head); font-size:1.4rem; font-weight:800;
+      color:var(--white); margin-bottom:.25rem; position:relative; z-index:1;
+    }
+    .mi-sub {
+      font-size:.82rem; color:rgba(255,255,255,.55); margin-bottom:2rem;
+      position:relative; z-index:1;
+    }
+    .mi-pillars { display:flex; flex-direction:column; gap:.6rem; position:relative; z-index:1; }
+    .mi-pillar {
+      display:flex; align-items:center; gap:.75rem;
+      background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.1);
+      border-radius:var(--radius); padding:.75rem 1rem;
+    }
+    .mi-pillar-dot { width:6px; height:6px; border-radius:50%; background:var(--silver-light); flex-shrink:0; }
+    .mi-pillar-text { font-size:.82rem; color:rgba(255,255,255,.75); font-family:var(--font-head); font-weight:500; }
+
+    .values-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1.25rem; }
+    .value-card {
+      background:var(--white); border:1px solid var(--border); border-radius:var(--radius-lg);
+      padding:1.75rem; box-shadow:var(--shadow-xs);
+      transition: all var(--t-base) var(--ease);
+    }
+    .value-card:hover { box-shadow:var(--shadow-md); transform:translateY(-3px); border-color:var(--silver-light); }
+    .value-icon { margin-bottom:1rem; }
+    .value-title { font-family:var(--font-head); font-size:.95rem; font-weight:700; color:var(--blue); margin-bottom:.5rem; }
+    .value-desc { font-size:.84rem; color:var(--text-mid); line-height:1.7; }
+
+    .team-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; }
+    .team-card {
+      background:var(--white); border:1px solid var(--border); border-radius:var(--radius-xl);
+      padding:2rem; text-align:center; box-shadow:var(--shadow-xs);
+      transition:all var(--t-base);
+    }
+    .team-card:hover { box-shadow:var(--shadow-md); transform:translateY(-4px); }
+    .team-avatar {
+      width:72px; height:72px; border-radius:50%; background:var(--blue);
+      display:flex; align-items:center; justify-content:center;
+      font-family:var(--font-head); font-weight:800; font-size:1.2rem;
+      color:var(--white); margin:0 auto 1rem;
+    }
+    .team-name { font-family:var(--font-head); font-size:1rem; font-weight:700; color:var(--text-dark); }
+    .team-role { font-size:.8rem; color:var(--silver); margin-top:.25rem; }
+    .team-dept {
+      display:inline-block; margin-top:.75rem;
+      background:var(--blue-xlt); color:var(--blue);
+      border-radius:100px; padding:.25rem .75rem;
+      font-size:.68rem; font-family:var(--font-head); font-weight:700;
+    }
+
+    .presence-row { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; }
+    .presence-card {
+      background:var(--white); border:1px solid var(--border); border-radius:var(--radius-lg);
+      padding:2rem; box-shadow:var(--shadow-xs); text-align:center;
+    }
+    .presence-icon {
+      width:56px; height:56px; border-radius:14px; background:var(--blue);
+      display:flex; align-items:center; justify-content:center;
+      margin:0 auto 1rem;
+    }
+    .presence-icon svg { width:26px; height:26px; stroke:var(--white); }
+    .presence-title { font-family:var(--font-head); font-size:1rem; font-weight:700; color:var(--blue); margin-bottom:.4rem; }
+    .presence-desc { font-size:.83rem; color:var(--text-mid); line-height:1.65; }
+
+    @media(max-width:900px) {
+      .mission-grid { grid-template-columns:1fr; }
+      .values-grid  { grid-template-columns:1fr; }
+      .team-grid    { grid-template-columns:repeat(2,1fr); }
+      .presence-row { grid-template-columns:1fr; }
+    }
+    @media(max-width:560px) {
+      .team-grid { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar" aria-label="Main navigation">
+  <div class="nav-wrap">
+    <a href="index.html" class="nav-logo" aria-label="IR-FZE Home">
+      <div class="logo-box"><span>IR</span></div>
+      <div class="logo-meta"><strong>IR-FZE</strong><small>Technical Consultancy</small></div>
+    </a>
+    <ul class="nav-links" role="menubar">
+      <li class="nav-item"><a href="index.html"  class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="about.html"  class="nav-link active">About</a></li>
+      <li class="nav-item has-mega">
+        <a href="services.html" class="nav-link" aria-haspopup="true">Services <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>
+        <div class="mega-menu">
+          <div class="mega-services">
+            <a href="service-feasibility.html" class="mega-service-link"><div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div><div><div class="mega-service-title">Technical Feasibility Studies</div><div class="mega-service-desc">Risk assessments & advisory reports</div></div></a>
+            <a href="service-design-review.html" class="mega-service-link"><div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div><div><div class="mega-service-title">Design Review & Constructability</div><div class="mega-service-desc">Document review & gap analysis</div></div></a>
+            <a href="service-pms.html" class="mega-service-link"><div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div><div><div class="mega-service-title">Project Management Systems</div><div class="mega-service-desc">PMO setup & workflow alignment</div></div></a>
+            <a href="service-document-control.html" class="mega-service-link"><div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/></svg></div><div><div class="mega-service-title">Document Control System</div><div class="mega-service-desc">Setup, procedures & training</div></div></a>
+            <a href="service-ai.html" class="mega-service-link"><div class="mega-service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div><div><div class="mega-service-title">AI Integration & Automation</div><div class="mega-service-desc">Dashboards, chatbots & task automation</div></div></a>
+          </div>
+          <div class="mega-promo">
+            <div><div class="mega-promo-label">Featured Service</div><div class="mega-promo-title">AI Automation for UAE Enterprises</div><div class="mega-promo-body">Reduce operational manpower by up to 60% with intelligent dashboards, automated workflows and custom AI chatbots.</div></div>
+            <a href="service-ai.html" class="mega-view-all">Explore AI Services <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="tel:+971543368088" class="btn btn-ghost btn-sm"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 012 1.18 2 2 0 014 0h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 14.92z"/></svg> Call Now</a>
+      <a href="contact.html" class="btn btn-primary btn-sm">Get Consultation</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="index.html">Home</a>
+    <span class="drawer-section-label">Services</span>
+    <a href="service-feasibility.html">— Technical Feasibility Studies</a>
+    <a href="service-design-review.html">— Design Review & Constructability</a>
+    <a href="service-pms.html">— Project Management Systems</a>
+    <a href="service-document-control.html">— Document Control System</a>
+    <a href="service-ai.html">— AI Integration & Automation</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary drawer-cta">Get a Consultation</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="About page hero">
+  <div class="page-hero-grid" aria-hidden="true"></div>
+  <div class="container page-hero-inner">
+    <nav class="page-breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span aria-hidden="true">/</span><span class="current">About Us</span>
+    </nav>
+    <span class="eyebrow" style="color:var(--silver-light);">About IR-FZE</span>
+    <h1 class="h1" style="color:var(--white);max-width:700px;margin-bottom:1rem;">Built for the Demands of UAE's Project Economy</h1>
+    <p class="lead" style="color:rgba(255,255,255,.7);max-width:600px;">A specialist technical consultancy registered in the Sharjah Publishing City Freezone, driving precision engineering and digital transformation across the Emirates.</p>
+  </div>
+</section>
+
+<!-- MISSION & IDENTITY -->
+<section class="about-mission section-py" aria-labelledby="mission-heading">
+  <div class="container">
+    <div class="mission-grid">
+      <div class="reveal-left">
+        <div class="mission-identity">
+          <div class="mi-logo"><span>IR</span></div>
+          <div class="mi-name">IR-FZE</div>
+          <div class="mi-sub">Sharjah Publishing City Freezone · United Arab Emirates</div>
+          <div class="mi-pillars">
+            <div class="mi-pillar"><div class="mi-pillar-dot"></div><div class="mi-pillar-text">UAE Freezone Registered Entity</div></div>
+            <div class="mi-pillar"><div class="mi-pillar-dot"></div><div class="mi-pillar-text">ISO-Aligned Delivery Processes</div></div>
+            <div class="mi-pillar"><div class="mi-pillar-dot"></div><div class="mi-pillar-text">AI-First Engineering Methodology</div></div>
+            <div class="mi-pillar"><div class="mi-pillar-dot"></div><div class="mi-pillar-text">Bilingual Team: English & Arabic</div></div>
+            <div class="mi-pillar"><div class="mi-pillar-dot"></div><div class="mi-pillar-text">Multi-Sector UAE Experience</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <span class="eyebrow">Our Mission</span>
+        <div class="rule"></div>
+        <h2 class="h2 text-blue" id="mission-heading" style="margin-bottom:1rem;">Transforming UAE Project Delivery Through Engineering Intelligence</h2>
+        <p class="lead" style="margin-bottom:1.5rem;">IR-FZE was founded with a clear mandate: close the gap between technical complexity and business outcome for UAE developers, contractors, and government entities.</p>
+        <p style="font-size:.92rem;color:var(--text-mid);line-height:1.85;margin-bottom:1.5rem;">Registered in the Sharjah Publishing City Freezone — one of the UAE's most progressive business environments — we serve clients across all seven Emirates. Our practice spans technical feasibility, project management systems, document control, design constructability review, and AI-powered operations.</p>
+        <p style="font-size:.92rem;color:var(--text-mid);line-height:1.85;margin-bottom:2rem;">We do not just advise. We embed. Our team integrates directly with your workflow in Week 1, delivering measurable results — not strategy decks.</p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+          <a href="services.html" class="btn btn-ghost">Explore Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section-py" style="background:var(--white);" aria-labelledby="values-heading">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <span class="eyebrow">Our Values</span>
+      <div class="rule centered"></div>
+      <h2 class="h2 text-blue" id="values-heading">The Principles Behind Every Engagement</h2>
+      <p class="lead">Four commitments that define how IR-FZE operates — from the first meeting to final handover.</p>
+    </div>
+    <div class="values-grid" style="max-width:900px;margin-inline:auto;">
+      <div class="value-card reveal delay-1">
+        <div class="value-icon"><div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div></div>
+        <div class="value-title">Precision</div>
+        <div class="value-desc">Every assessment, report, and system we deliver is engineered to the highest standard of accuracy. We do not approximate — we verify.</div>
+      </div>
+      <div class="value-card reveal delay-2">
+        <div class="value-icon"><div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div></div>
+        <div class="value-title">Partnership</div>
+        <div class="value-desc">We work as an extension of your team — not a vendor at arm's length. Our success is measured by your project's success, not our billable hours.</div>
+      </div>
+      <div class="value-card reveal delay-3">
+        <div class="value-icon"><div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div></div>
+        <div class="value-title">Innovation</div>
+        <div class="value-desc">We assess every engagement for automation potential. AI is not a feature — it's our lens on every challenge, applied where it creates the most leverage.</div>
+      </div>
+      <div class="value-card reveal delay-4">
+        <div class="value-icon"><div class="icon-box icon-box-blue"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div></div>
+        <div class="value-title">Speed</div>
+        <div class="value-desc">No 12-week discovery phases. We onboard in days, embed in Week 1, and deliver tangible outputs — not presentations — within the first month.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARKET PRESENCE -->
+<section class="section-py" style="background:var(--off-white);" aria-labelledby="presence-heading">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <span class="eyebrow">UAE Market Presence</span>
+      <div class="rule centered"></div>
+      <h2 class="h2 text-blue" id="presence-heading">Serving All Seven Emirates</h2>
+      <p class="lead">From our Sharjah base, IR-FZE serves clients across the UAE's most active project sectors and economic zones.</p>
+    </div>
+    <div class="presence-row">
+      <div class="presence-card reveal delay-1">
+        <div class="presence-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div>
+        <div class="presence-title">Headquarters</div>
+        <div class="presence-desc">Sharjah Publishing City Freezone, Sharjah, UAE — one of the region's most dynamic business environments.</div>
+      </div>
+      <div class="presence-card reveal delay-2">
+        <div class="presence-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div class="presence-title">Active Project Cities</div>
+        <div class="presence-desc">Dubai · Sharjah · Abu Dhabi · Ajman · Ras Al Khaimah · Fujairah — plus GCC regional advisory.</div>
+      </div>
+      <div class="presence-card reveal delay-3">
+        <div class="presence-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <div class="presence-title">Sectors Served</div>
+        <div class="presence-desc">Construction · Real Estate · Energy · Logistics · Government · Healthcare infrastructure across the UAE.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="section-py" style="background:var(--white);" aria-labelledby="team-heading">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <span class="eyebrow">Leadership</span>
+      <div class="rule centered"></div>
+      <h2 class="h2 text-blue" id="team-heading">The Experts Behind IR-FZE</h2>
+      <p class="lead">A multidisciplinary team with deep UAE market experience across engineering, project management, document control, and AI systems.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal delay-1">
+        <div class="team-avatar">IR</div>
+        <div class="team-name">IR-FZE Principal</div>
+        <div class="team-role">Founding Director & Engineering Lead</div>
+        <div class="team-dept">Technical Advisory</div>
+      </div>
+      <div class="team-card reveal delay-2">
+        <div class="team-avatar" style="background:var(--blue-mid);">PM</div>
+        <div class="team-name">Project Systems Lead</div>
+        <div class="team-role">PMO Setup & Workflow Architecture</div>
+        <div class="team-dept">Project Management</div>
+      </div>
+      <div class="team-card reveal delay-3">
+        <div class="team-avatar" style="background:var(--silver-dark);">AI</div>
+        <div class="team-name">AI Integration Lead</div>
+        <div class="team-role">Automation & Digital Transformation</div>
+        <div class="team-dept">AI & Technology</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="cta-band" aria-label="Call to action">
+  <div class="container">
+    <div class="cta-band-inner">
+      <div class="reveal-left">
+        <div class="cta-band-title">Let's Build Something Exceptional Together</div>
+        <div class="cta-band-sub">Talk to IR-FZE about your next project — UAE's specialist technical consultancy.</div>
+      </div>
+      <div class="cta-band-actions reveal-right">
+        <a href="contact.html" class="btn btn-white btn-lg">Get a Consultation</a>
+        <a href="tel:+971543368088" class="btn btn-outline-white btn-lg">+971 54 336 8088</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-upper">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:.75rem;"><div class="logo-box"><span>IR</span></div><div class="logo-meta"><strong>IR-FZE</strong><small>Technical Consultancy</small></div></a>
+          <p class="footer-tagline">Premier technical consultancy in Sharjah, UAE. Delivering precision feasibility, project systems, and AI automation for enterprise clients across the Emirates.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="service-feasibility.html">Technical Feasibility Studies</a></li>
+            <li><a href="service-design-review.html">Design Review & Constructability</a></li>
+            <li><a href="service-pms.html">Project Management Systems</a></li>
+            <li><a href="service-document-control.html">Document Control System</a></li>
+            <li><a href="service-ai.html">AI Integration & Automation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About IR-FZE</a></li>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <address>
+            <div class="footer-contact-item"><div class="footer-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 012 1.18 2 2 0 014 0h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 14.92z"/></svg></div><a href="tel:+971543368088">+971 543368088</a></div>
+            <div class="footer-contact-item"><div class="footer-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><a href="mailto:info@ir-fze.com">info@ir-fze.com</a></div>
+            <div class="footer-contact-item"><div class="footer-contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><span>Sharjah Publishing City Freezone, Sharjah, UAE</span></div>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="footer-lower">
+      <p>&copy; <span class="js-year"></span> IR-FZE. All rights reserved.</p>
+      <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">UAE Data Compliance</a></div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/971543368088?text=Hello%20IR-FZE%2C%20I%20am%20interested%20in%20your%20consultancy%20services." class="wa-fab" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <span class="wa-fab-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+  <span class="wa-fab-label">Chat on WhatsApp</span>
+</a>
+
+<script src="js/global.js"></script>
+</body>
+</html>
